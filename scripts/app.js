@@ -121,7 +121,7 @@ function cadastrarDespesa() {
         console.log('dados válidos')
         document.getElementById('modal_titulo_div').className = 'modal-header text-success'
         document.getElementById("modal_titulo").innerHTML = 'Despesa cadastrada'
-        document.getElementById("modal_conteudo").innerHTML = '<h6>Dispesa cadastrada com sucesso, confira na aba "Consulta"</h6>'
+        document.getElementById("modal_conteudo").innerHTML = '<h6>Despesa cadastrada com sucesso, confira na aba "Consulta"</h6>'
         document.getElementById('modal_botao').className = ' btn btn-success'
         $('#mensagemGravacao').modal('show')
 
